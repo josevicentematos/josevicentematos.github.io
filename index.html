@@ -11,7 +11,7 @@
           <li><a href="https://www.youtube.com/">youtube</a></li>
           <li><a href="https://www.twitter.com/">twitter</a></li>
           <li><a href="https://www.instagram.com/">instagram</a></li>
-          <li><a href="https://www.twitter.com/">whatsapp</a></li>
+          <li><a href="https://web.whatsapp.com/">whatsapp</a></li>
         </ul>
 
         <ul>
@@ -27,5 +27,18 @@
           <li><a href="https://www.anilist.co/">anilist</a></li>
         </ul>
       </nav>    
+
+    <div style="width: 80%; margin: 0 auto;">
+        <form id="googleSearchForm" action="https://www.google.com/search" method="GET" target="_blank" style="background-color: #333; display: inline-block; padding: 10px; border-radius: 5px; width: 100%;">
+            <input type="text" id="searchInput" name="q" autofocus style="padding: 5px; font-size: 16px; background-color: #333; color: #ffffff; border: none; outline: none; width: 100%;">
+        </form>
+    </div>
+
+    <script>
+        // Automatically focus the search input on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('searchInput').focus();
+        });
+    </script>
     </body>
   </html>
