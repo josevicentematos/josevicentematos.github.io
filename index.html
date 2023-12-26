@@ -38,5 +38,20 @@
             <input type="text" id="searchInput" name="q" style="padding: 5px; font-size: 16px; background-color: #333; color: #ffffff; border: none; outline: none; width: 100%;">
         </form>
     </div>
+
+        <div style="margin: 0 auto; margin-top: 5%;" id="clock"></div>
+
+    <script>
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const timeString = `${hours}:${minutes}`;
+            document.getElementById('clock').textContent = timeString;
+        }
+    </script>
   </body>
 </html>
