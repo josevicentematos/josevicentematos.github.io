@@ -52,3 +52,8 @@ li:first-child {
 li:last-child {
   margin: 0 0 1em;
 }
+
+#clock {
+    font-size: 24px;
+    margin-top: 20px;
+}
