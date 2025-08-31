@@ -1,43 +1,85 @@
+</html>
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <title>start</title>
-  </head>
-  <body>   
-    <nav>
-      <ul>
-        <li>social</li>
-        <li><a href="https://www.youtube.com/feed/subscriptions">youtube</a></li>
-        <li><a href="https://www.twitter.com/">twitter</a></li>
-        <li><a href="https://www.instagram.com/">instagram</a></li>
-      </ul>
+<html lang="en">
 
-      <ul>
-        <li>finance</li>
-        <li><a href="https://www.itau.com.uy/">itaú</a></li>
-        <li><a href="https://docs.google.com/spreadsheets/d/1gKSHK9c4XSN7SDBdvLlsOp0tWP7xNZCaQkPafGoPpPQ/edit?gid=609652725#gid=609652725">accounting</a></li>
-        <li><a href="https://spf.sistarbanc.com.uy/">sistarbanc</a></li>
-      </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
 
-      <ul>
-        <li>misc</li>
-        <li><a href="https://stm.gub.uy/app/mistm/cuenta/">stm</a></li>
-        <li><a href="https://tramites.montevideo.gub.uy/tramites-y-tributos/tributo-domiciliario">td</a></li>
-      </ul>
+    <style>
+        body {
+            filter: invert();
+            font-family: Helvetica, Roboto, Ubuntu, sans-serif;
+            background-color: #1d201f;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
 
-      <ul>
-        <li>mail</li>
-        <li><a href="https://mail.google.com/mail/u/0/#inbox">comfyephi</a></li>
-        <li><a href="https://mail.google.com/mail/u/1/#inbox">jose matos</a></li>
-      </ul>
+        .columns {
+            display: flex;
+            gap: 40px;
+        }
 
-    <!--  <ul>
-        <li>personal</li>
-        <li><a href="moz-extension://679a6ebf-679b-4388-8fc9-9dc890dc34fa/resources/group-tab.html?title=Group">new group</a></li> 
-        <li><a href="https://github.com/josevicentematos/josevicentematos.github.io/tree/main">github page</a></li>
-      </ul> -->
-    </nav>
-    <a style="color: #1c1c1c;font-size: 2vh;text-align: end;padding-bottom: 0px;margin-bottom: -35px;" href="https://github.com/josevicentematos/josevicentematos.github.io/tree/main">x</a>
-  </body>
+        .column {
+            flex: 1;
+        }
+
+        h2 {
+            margin-top: 1em;
+        }
+
+        a {
+            color: #532a4e !important;
+            filter: none !important;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-left: 0;
+            margin-top: -15;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="columns">
+        <div class="column">
+            <h2>Social</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/feed/subscriptions">YouTube</a></li>
+                <li><a href="https://www.x.com/">Twitter</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+            </ul>
+
+            <h2>Finances</h2>
+            <ul>
+                <li><a href="https://www.itau.com.uy/">Itaú</a></li>
+                <li><a
+                        href="https://docs.google.com/spreadsheets/d/1gKSHK9c4XSN7SDBdvLlsOp0tWP7xNZCaQkPafGoPpPQ/edit?gid=609652725#gid=609652725">Accounting</a>
+                </li>
+                <li><a href="https://spf.sistarbanc.com.uy/">Sistarbanc</a></li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h2>Miscellaneous</h2>
+            <ul>
+                <li><a href="https://stm.gub.uy/app/mistm/cuenta/">STM</a></li>
+                <li><a href="https://tramites.montevideo.gub.uy/tramites-y-tributos/tributo-domiciliario">Tributos
+                        Domiciliarios</a></li>
+            </ul>
+
+            <h2>Mail</h2>
+            <ul>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox">ComfyEphi</a></li>
+                <li><a href="https://mail.google.com/mail/u/1/#inbox">Jose Matos</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
 </html>
